@@ -81,6 +81,6 @@ describe("analyzeArray()", () => {
     test("if passed with an array with multiple values, it should return the average value of the array", () => {
       const testArr = analyzeArray([10, 20, 30, 40]);
       expect(testArr.average).toBe(25)
-    })
-  })
-})
+    });
+  });
+});
